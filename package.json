@@ -1,0 +1,25 @@
+{
+    "name": "ManuLife",
+    "version": "0.1.0",
+    "description": "Manulife Node server",
+    "main": "app.js",
+    "scripts": {
+        "start": " node app.js"
+    },
+    "author": "Photon Infotech pvt Ltd",
+    "engines": {
+        "node": "8.9.4"
+    },
+    "dependencies": {
+        "async": "2.6.1",
+        "bcryptjs": "2.4.3",
+        "bluebird": "3.5.1",
+        "body-parser": "1.18.3",
+        "cookie-parser": "1.4.3",
+        "express": "4.16.3",
+        "express-fileupload": "0.4.0",
+        "lodash": "4.17.10",
+        "redis": "2.8.0",
+        "winston": "3.0.0"
+    }
+}
